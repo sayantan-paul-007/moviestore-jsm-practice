@@ -18,7 +18,8 @@ Built with a focus on smooth UI, basic error handling, and mobile responsiveness
 
 ## 🚀 Live Demo
 
-Coming soon! (Deploy on Vercel / Netlify / etc.)
+[https://moviestore-jsm.vercel.app/](https://moviestore-jsm.vercel.app/)
+------------------------------------------------------------------------
 
 ---
 
@@ -50,6 +51,8 @@ npm install
 ```
 The app will run at [http://localhost:3000](http://localhost:3000).
 
+---
+
 ## 🔑 API Key Setup
 
 This project uses the [OMDb API](https://www.omdbapi.com/).
@@ -61,6 +64,7 @@ This project uses the [OMDb API](https://www.omdbapi.com/).
    ```
 
 ---
+
 ## 📂 Project Structure
 
 ```
@@ -79,7 +83,7 @@ moviestore/
 
 | Home View | Search Result |
 |:---------:|:-------------:|
-| ![Home Screenshot](https://moviestore-jsm.vercel.app/) | ![Search Screenshot](https://via.placeholder.com/400x300?text=Search) |
+| ![Home Screenshot](https://github.com/sayantan-paul-007/moviestore-jsm-practice/blob/master/public/Home_Screenshot.png) | ![Search Screenshot](https://github.com/sayantan-paul-007/moviestore-jsm-practice/blob/master/public/Search_ScreenShot.png) |
 
 ---
 
@@ -97,3 +101,25 @@ moviestore/
 *   Better error UI/UX
     
 *   Environment variables for API keys
+
+
+---
+
+🤝 Contributing
+---------------
+
+Contributions, issues, and feature requests are welcome!Feel free to open a [pull request](https://github.com/sayantan-paul-007/moviestore/pulls).
+
+--- 
+
+🧾 License
+----------
+
+This project is **free to use** under the MIT License.
+
+---
+
+🌟 Show your support!
+---------------------
+
+If you like this project, please ⭐️ the repository!
