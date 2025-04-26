@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+🎥 MovieStore
+A stylish React.js application to search and explore movies using the OMDb API.
+Built with a focus on smooth UI, basic error handling, and mobile responsiveness.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+🔍 Search for movies by title
 
-## Available Scripts
+🎴 Display movie details: Poster, Title, Year, and Type
 
-In the project directory, you can run:
+❗ Error handling for API failures or no search results
 
-### `npm start`
+📱 Responsive design (works well on mobile)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🖌️ Modern, elegant UI with custom CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🖼️ Fallback image if movie poster is unavailable
 
-### `npm test`
+🚀 Live Demo
+https://moviestore-jsm.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
+Frontend: React.js (Functional Components, Hooks)
 
-### `npm run build`
+API: OMDb API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Styling: Custom CSS, Google Fonts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Installation
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy
+Edit
+git clone https://github.com/your-username/moviestore.git
+Navigate to the project directory:
 
-### `npm run eject`
+bash
+Copy
+Edit
+cd moviestore
+Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy
+Edit
+npm start
+The app will run at http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔑 API Key Setup
+The app uses the OMDb API.
+Currently, a demo key is hardcoded (apikey=5650cfb) in the project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+javascript
+Copy
+Edit
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=5650cfb';
+For production or serious use, you should:
 
-## Learn More
+Get your free OMDb API key
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Replace the API key in App.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📂 Project Structure
+pgsql
+Copy
+Edit
+moviestore/
+├── public/
+│   └── search.svg
+├── src/
+│   ├── components/
+│   │   └── MovieCard.js
+│   ├── App.js
+│   ├── style.css
+│   └── index.js
+├── package.json
+└── README.md
+📸 Screenshots
 
-### Code Splitting
+Home (Desktop)	Search Result (Mobile)
+(Add screenshots here)	(Add screenshots here)
+💡 Improvements for Future
+Pagination or infinite scroll
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Loading animations while fetching
 
-### Analyzing the Bundle Size
+Movie detail pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Dark mode toggle
 
-### Making a Progressive Web App
+Better error UI/UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Environment variables for API keys
 
-### Advanced Configuration
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🧾 License
+This project is free to use under the MIT License.
 
-### Deployment
+🌟 Show your support!
+If you like this project, please ⭐️ the repository!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
